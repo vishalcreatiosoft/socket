@@ -47,7 +47,7 @@ body{
     margin-bottom: 20px;
 }
 .msg{
-    visibility:unset;
+    
     width: 25%;
     padding: 10px;
     margin: 10px 5px;
@@ -79,6 +79,7 @@ body{
     height: 25px;
     border: 1px solid black;
     border-radius: 5px;
+    margin-bottom: 10px;
 }
 .sendbtn{
     width: 20%;
@@ -88,4 +89,14 @@ body{
     border-radius: 5px;
     background-color: blue;
     color: white
+}
+.user-name{
+
+    width: 25%;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    background-color: bisque;
+    
 }
