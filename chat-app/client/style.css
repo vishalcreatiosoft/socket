@@ -1,0 +1,91 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.row{
+    height: 800px;
+    width: 100%;
+}
+
+.left-column{
+    width: 25%;
+    height: 100%;
+    float: left;
+    
+}
+.main-column{
+    width: 50%;
+    height: 100%;
+    float: left;
+    
+}
+
+.right-column{
+    width: 25%;
+    height: 100%;
+    float: left;
+    
+}
+
+.screen{
+    width: 60%;
+    height: 600px;
+    background-color: bisque;
+    margin: auto;
+    padding: 5%;
+}
+
+.chat-box{
+    width: 80%;
+    margin: auto;
+    height: 400px;
+    background-color: whitesmoke;
+    border: 1px solid;
+    padding: 20px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+.msg{
+    visibility:unset;
+    width: 25%;
+    padding: 10px;
+    margin: 10px 5px;
+    background-color: rgb(182, 167, 167);
+    border: 1px solid black;
+    border-radius : 10px
+    
+}
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}
+
+.send{
+    width: 80%;
+    margin: auto;
+    height: 50px;
+    margin-top: 5%;
+    
+    
+}
+
+.msg-input{
+    width: 70%;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.sendbtn{
+    width: 20%;
+    height: 28px;
+    border: 1px solid black ;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: blue;
+    color: white
+}
