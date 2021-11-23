@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "snowpack dev"
+    "start": "snowpack dev"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "redis": "^3.1.2",
     "socket.io-client": "^4.3.2"
   },
   "devDependencies": {
