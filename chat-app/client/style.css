@@ -60,14 +60,12 @@ body{
 .left{
     float: left;
     clear: both;
-    text-align: left;
     background-color: rgb(20, 79, 243)
 
 }
 .right{
     float: right;
     clear: both;
-    text-align: right;
     background-color: rgb(22, 21, 21);
 }
 .show-time-left{

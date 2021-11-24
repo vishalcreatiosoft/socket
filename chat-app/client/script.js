@@ -99,12 +99,15 @@ roomButton.addEventListener('click',()=>{
 })
 
 socket.on('receive', data => {
-
     displayMessage(`${data.name} : ${data.message}`, 'left', data.time, 'show-time-left');
 })
 
 socket.on('left', name => {
-    displayMessage(`${name} left chatting`,'left', 'show-time-left');
+    const currentTime = new Date();    
+    const hours = currentTime.getHours() > 12 ? currentTime.getHours()-12 : currentTime.getHours();
+    const minutes = addZero(currentTime.getMinutes());
+    const sentTime = `${hours}:${minutes}`;
+    displayMessage(`${name} left chatting`,'left', sentTime, 'show-time-left');
 })
 
 socket.on('oldMessages', data => {
